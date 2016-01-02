@@ -1,0 +1,15 @@
+$body-bg: rgb(41, 128, 185);
+$navbar-default-bg: rgb(211, 84, 0);
+$navbar-default-link-color: white;
+$brand-primary: #f39c12;
+$jumbotron-bg:rgb(236, 240, 241);
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
