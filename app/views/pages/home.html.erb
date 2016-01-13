@@ -1,11 +1,26 @@
 <div class="jumbotron center">
-     <h1>Welcome to my app!</h1>
+  <h1>Platforme DYS </h1>
+  <h2>Solution pour combattre la Dyslexie </h2>
+
      <% if user_signed_in? %>
           # do something
      <% else %>
        <p>
-         <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
-         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+         <%= link_to "Connexion", new_user_session_path, class: "btn btn-default btn-lg" %>
+         <%= link_to "Inscription Gratuite", new_user_registration_path, class: "btn btn-primary btn-lg" %>
        </p>
   <% end %>
+
 </div>
+<form action="/charge" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_qb9hPAew57PDqFM0fIjBFgN5"
+    data-image="/img/documentation/checkout/marketplace.png"
+    data-name="cyril"
+    data-description="2 widgets"
+    data-currency="eur"
+    data-amount="2000"
+    data-locale="auto">
+  </script>
+</form>
