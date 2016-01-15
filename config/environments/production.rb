@@ -84,6 +84,6 @@ Rails.application.configure do
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 }
-config.stripe.publishable_key = 'pk_live_TBwrLbZnO46ITjq92xxUXm07'
+
 
 end
