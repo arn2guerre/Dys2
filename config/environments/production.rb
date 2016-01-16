@@ -84,6 +84,8 @@ Rails.application.configure do
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 }
-
+Stripe.api_key = "pk_live_TBwrLbZnO46ITjq92xxUXm07"
 
 end
+# Set your secret key: remember to change this to your live secret key in production
+# See your keys here https://dashboard.stripe.com/account/apikeys
