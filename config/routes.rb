@@ -1,15 +1,16 @@
 Rails.application.routes.draw do
   resources :pins
   resources :charges
-
+ resource :subscription
+ resources :surveys
 
 
   devise_for :users
   root "pages#games"
 
   get "prix" => "pages#prix"
-
-
+# get "blog" =>  "pages#blog"
+get "blog" => redirect("http://dysactu.wordpress.com")
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -18,6 +18,9 @@ gem 'aws-sdk', '< 2.0'
 gem 'masonry-rails', '~> 0.2.0'
 gem 'stripe'
 gem 'figaro'
+gem 'gosu'
+gem 'textacular', '~> 3.0'
+gem  'mixpanel-ruby'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
