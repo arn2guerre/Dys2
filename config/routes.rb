@@ -1,10 +1,7 @@
 Rails.application.routes.draw do
   resources :pins
-  resources :charges
- resource :subscription
- resources :surveys
 
-
+ 
   devise_for :users
   root "pages#games"
 
