@@ -36,6 +36,4 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
-STRIPE_SECRET = "sk_test_nfB8A9gJfMWOFA0IfvEjXBJW"
-STRIPE_PUBLIC = "pk_test_qb9hPAew57PDqFM0fIjBFgN5"
 end
